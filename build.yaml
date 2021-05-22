@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      dart_json_mapper:
+          generate_for:
+            - test/json_test.dart
+      reflectable:
+        generate_for:
+          - no/files
